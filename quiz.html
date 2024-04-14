@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./quiz.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="header">
+        <label class="logo">MY WEB SITE</label>
+        <ul>
+            <li><a href="#outer-about">HAKKIMDA</a></li>
+            <li><a href="#akademik">AKADEMİK</a></li>
+            <li><a href="#contact">İLETİŞİM</a></li>
+        </ul>
+    </div>
+
+    <div id="outer-about" class="box">
+        <img id="img-fotom" src="./fotom2.jpg">
+        <div id="inner-about">
+            <h4>Rabia Ebrar Dal</h4>
+            <br>
+            <p>3. Sınıf Bilgisayar Mühendisliği öğrencisi.</p>
+            <p>Şuanda Afyon Kocatepe Üniversitesinde okumakta.</p>
+            <p>Yapay Zeka, Makine Öğrenmesi, Yapay Sinir Ağlarına ilgisi var.</p>
+            <br>
+            <p>Ankara'da doğup büyüdü. Aslen KahramanMaraşlı.</p>
+            <p>Bir erkek bir de kız kardeşi var, en büyükleri benim :)</p>
+            <p>Ankara, Keçiören'de ikamet etmekte.</p>
+        </div>
+        <div id="baslık"><h3>Hobilerim</h3></div>
+        <div id="inner-hobby">
+            <img id="img-cinema" src="./clapperboard.png">
+            <div id="cinema-box">
+                <h4 class="title">Sinema</h4>
+                <p class="par-cinema">
+                Sinema sektörünü yakından takip ediyorum. Film, dizi,animasyon izlemeyi çok seviyorum.
+                Şimdiye kadar birçok yapım izleme fırsatı buldum. Klasiklerden modern başyapıtlara kadar geniş bir yelpazede filmleri ve dizileri takip ettim. 
+                Bu izleme deneyimlerinden edindiğim bilgiler, sinema ve televizyon sanatı hakkında daha fazla şey öğrenmeme yardımcı oldu.
+            </p>
+            </div>
+            <img id="img-book" src="./book-stack.png">
+            <div id="book-box">
+                <h4 class="title">Kitap Okumak</h4>
+                <p>
+                    Kitap okumayı seviyorum çünkü kitaplar bana sınırsız bir dünya sunuyor. Her sayfa, farklı karakterlerle, olaylarla ve fikirlerle dolu bir 
+                    maceraya açılan bir kapı gibi. Kitap okumak, beni yeni bakış açılarıyla tanıştıran, düşüncelerimi ve hayal gücümü genişleten bir deneyim.
+                </p>
+            </div>
+            <img id="img-travel" src="./travel.png">
+            <div id="travel-box">
+                <h4 class="title">Seyahat Etmek</h4>
+                <p>
+                    Seyahat etmeyi seviyorum çünkü seyahat etmek bana özgürlüğü ve keşfi getiriyor. Farklı yerlere gitmek, yeni kültürleri ve insanları tanımak,
+                     alışık olmadığım ortamlarda bulunmak bana heyecan veriyor. Her seyahat, dünyaya dair yeni bir bakış açısı kazanma fırsatı sunuyor.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="akademik" class="box">
+            <div id="experience-box">
+                <h3>Deneyim</h3> <br>
+                <p>
+                    Ankara EGO Genel Müdürlüğü <br>
+                    <span id="span-1">-Web Development</span> <br>
+                    <span id="span-2">-Zorunlu Staj</span>
+                </p>
+            </div>
+            <div id="education-box">
+                <h3>Eğitim</h3> <br>
+                <p>
+                    Bilgisayar Mühendisliği - Afyon Kocatepe Üniversitesi   2022 - Halen <br> <span>-Lisans Programı</span><br>
+                    Bilgisayar Mühendisliği - İstanbul Gelişim Üniversitesi   2021 - 2022 <br> <span>-Lisans Programı</span><br>
+                    Fen Bilimleri Programı - Tevfik İleri AİHL Fen Bilimleri Proje Okulu <br> <span>-Lise</span>
+                </p>
+            </div>
+            <div id="cubuk"></div>
+            <div id="skill-box">
+                <h3>Beceriler</h3> <br>
+                <p>*ASP.Net, MVC</p> 
+                <p>*Python</p>
+                <p>*C#</p>
+                <p>*Matlab</p>
+            </div>
+    </div>
+
+    <div id="contact" class="box">
+        <div id="container">
+            <h2>İletişim</h2>
+            <p>Bu formu doldurarak benimle iletişime geçebilirsiniz.</p>
+            <br>
+            <form id="contact-form">
+                <label for="name">Adınız</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-posta</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mesaj</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Gönder</button>
+            </form>
+        </div>
+
+        <div id="icons">
+        <a href="https://www.linkedin.com/in/rabia-ebrar-dal-7b90862a8/"><i class="fa-brands fa-linkedin"></i></i></a>
+        <a href="https://www.google.com/maps/place/Kalaba,+06120+Ke%C3%A7i%C3%B6ren%2FAnkara/@39.974298,32.8535103,15z/data=!3m1!4b1!4m6!3m5!1s0x14d34db81eb17f01:0x1f7bcaaea46111c6!8m2!3d39.9751377!4d32.8634441!16s%2Fg%2F1ygbckmjz?authuser=0&entry=ttu"><i class="fa-solid fa-location-dot"></i></a>
+        <a href="mailto:rabiaebrar_dal@hotmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+
+    </div>>
+    
+    <script src="./quiz.js"></script>
+</body>
+</html>
