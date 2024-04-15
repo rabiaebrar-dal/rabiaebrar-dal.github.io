@@ -56,7 +56,7 @@ label.logo{
 }
 
 #outer-about{
-    background-color: rgb(156, 149, 149);
+    background-color: rgba(247, 206, 206, 0.671);
     width: 100%;
     height: 700px;
 }
@@ -210,7 +210,7 @@ form button:hover {
     display: inline-block;
     border: 3px solid rgb(156, 113, 130);
     border-radius: 15px;
-    background-color: #9c8b8b;
+    background-color: #cabfbf;
     width: 660px;
     height: 10
     40px;
@@ -228,7 +228,7 @@ form button:hover {
 
 #inner-hobby{
     /* display: inline-block; */
-    background-color: #9c8b8b;
+    background-color: #cabfbf;
     width: 700px;
     height: 390px;
     border: 3px solid rgb(156, 113, 130);
