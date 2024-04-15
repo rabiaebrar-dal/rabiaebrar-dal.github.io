@@ -16,3 +16,25 @@ function changeBackgroundColor(){
 }
 
 const intervalId = setInterval(changeBackgroundColor, 5000); 
+
+
+
+// form inputtaki dataları alıp consolda göstermek için
+
+const form = document.getElementById('contact-form');
+
+form.addEventListener('submit', function(event) {
+    event.preventDefault();
+    
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+    
+    console.log('Adınız:', name);
+    console.log('E-posta:', email);
+    console.log('Mesaj:', message);
+
+    form.reset(); //veriler girildikten sonra input temizlendi
+
+    alert("Gönderim Başarılı...");
+});
