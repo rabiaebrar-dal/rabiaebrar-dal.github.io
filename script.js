@@ -36,5 +36,5 @@ form.addEventListener('submit', function(event) {
 
     form.reset(); //veriler girildikten sonra input temizlendi
 
-    alert("Gönderim Başarılı...");
+    alert("Başarıyla Gönderildi...");
 });
