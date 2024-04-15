@@ -41,7 +41,7 @@ label.logo{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-a:hover{
+.header ul li a:hover{
     background-color: rgb(161, 156, 156);
     transition: .5s;
 }
@@ -141,12 +141,12 @@ a:hover{
         top: 50px;
     }
 
-    i{
+    #icons a{
         font-size: 30px;
         margin-right: 110px;
         margin-top: 30px;
-    }
 
+    }
     #icons{
         position: absolute;
         left: 800px;
