@@ -141,10 +141,11 @@ label.logo{
         top: 50px;
     }
 
-    #icons a{
+    i{
         font-size: 30px;
         margin-right: 110px;
         margin-top: 30px;
+    }
 
     }
     #icons{
